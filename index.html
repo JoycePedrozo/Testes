@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: 'Fraunces';
+      src: url('fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+    }
+    @font-face {
+      font-family: 'Montserrat';
+      src: url('fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+    }
+    body {
+      background-color: hsl(30, 38%, 92%);
+      font-size: 14px;
+      margin: 120px;
+    }
+    main {
+      background-color: hsl(0, 0%, 100%);
+      width: 550px;
+      height: 450px;
+      border-radius: 10px;
+      margin: auto;
+    }
+    
+    img {
+      width: 275px;
+      height: 450px;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+    img, .box{
+      float: left;
+    }
+    h1{
+      display: flex;
+      padding-left: 30px;
+      margin-right:70px;
+      margin-bottom: 10px;
+      color: hsl(212, 21%, 14%);
+      font-family: 'Fraunces';
+      font-size: 30px;
+      text-align: left;
+      font-weight: bolder;
+      
+      
+    }
+   
+    .p1{
+      display: flex;
+      color: hsl(228, 12%, 48%);
+      font-size: 14px;
+      font-family: 'Montserrat';
+      padding-left: 30px;
+      padding-top: 30px;
+    }
+    .p2 {
+      display: flex;
+      color: hsl(228, 12%, 48%);
+      font-size:14px;
+      font-family: 'Montserrat';
+      padding-left: 30px;
+      padding-top: 0px;
+      padding-right: 10px;
+     
+
+    }
+   
+    .p3 {
+      display: flex;
+      color: hsl(158, 36%, 37%);
+      font-family: 'Fraunces';
+      font-size:35px;
+      font-weight: bolder;
+      padding-left: 30px;
+     
+      
+    }
+  
+    .p3, .p4{
+      float: left;
+      padding-left:5px;
+      margin-left: 10px;
+    }
+    
+    
+    .p4{
+      display: flex;
+      color: hsl(228, 12%, 48%);
+      font-family: 'Montserrat';
+      font-size:15px;
+      padding-left: 10px;
+      padding-top: 30px;
+    }
+    
+   button{
+    background-color: hsl(158, 36%, 37%);   
+    border: none;
+    border-radius: 10px;;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    margin-top: -15px;;
+    margin-left: 30px;
+    padding: 15px;
+    width: 200px;
+   }
+   
+
+    
+    
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="box">
+        <img src="images/image-product-desktop.jpg">
+      </div>
+      <div class="box2">
+        <p class="p1">P E R F U M E</p>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p class="p2">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.</p>
+          <p class="p3">$149.99</p>
+          <p class="p4"><del> $169.99</del></p>
+          
+      </div>
+     
+        <button type="submit"><i class=""></i> Add to Cart</button>
+      
+
+        
+    
+    </div>
+
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/></svg>
+</body>
+</html>
